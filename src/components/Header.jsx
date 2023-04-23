@@ -17,7 +17,7 @@ const Header = () => {
             </div>
             <nav className="menu-header">
                 <ul className="menu-items">
-                    <li><Link clLinkssName="menu-item menu-item--entrar" to="#">Entrar</Link></li>
+                    <li><Link className="menu-item menu-item--entrar" to="#">Entrar</Link></li>
                     <li><Link className="menu-item" to="#">Productos</Link></li>
                     <li><Link className="menu-item" to="/">Blog</Link></li>
                     <li><Link className="menu-item" to="/sobre">Sobre</Link></li>
@@ -29,3 +29,5 @@ const Header = () => {
 }
 
 export default Header
+
+
